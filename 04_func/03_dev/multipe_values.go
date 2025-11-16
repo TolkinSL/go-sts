@@ -4,7 +4,7 @@ import "fmt"
 
 func processPayment(orderTotal, tip, paid float64) (float64, float64) {
 	totalAmount := orderTotal + tip
-	change := paid - totalAmount
+	change := paid - totalAmount // Сдача
 	return totalAmount, change
 }
 
