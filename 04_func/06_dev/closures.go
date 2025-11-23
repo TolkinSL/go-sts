@@ -26,7 +26,7 @@ func main() {
 	fmt.Println("test := createRegulator()")
 	test := createRegulator()
 	
-	fmt.Println("\nUse test := \n")
+	fmt.Println("\nUse test := ")
 	fmt.Println("test +5", test(5))	
 	fmt.Println("test -3", test(-3))
 }
