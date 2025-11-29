@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func sort_insert(arr []int) {
+func insertSort(arr []int) {
 	for i := 1; i < len(arr); i++ {
 		for j := i; j > 0 && arr[j-1] > arr[j]; {
 			arr[j-1], arr[j] = arr[j], arr[j-1]
@@ -16,7 +16,7 @@ func main() {
 	fmt.Println("Первоначальный массив")
 	fmt.Println(arr)
 
-	sort_insert(arr)
+	insertSort(arr)
 	fmt.Println("Отсортированный массив")
 	fmt.Println(arr)
 }
