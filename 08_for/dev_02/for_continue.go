@@ -25,6 +25,7 @@ func main() {
 			continue
 		}
 
-		fmt.Println(count, "Finish order...")
 	}
+	
+	fmt.Println(count, "Finish order...")
 }
