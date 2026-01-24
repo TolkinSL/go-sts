@@ -35,4 +35,6 @@ func main() {
 	fmt.Printf("Str: %s\n", orderStr.CoffeeType)
 	fmt.Printf("Map: %s\n", orderMap["CustomerName"])
 	fmt.Printf("Map: %s\n", orderMap["CoffeeType"])
+
+	orderMap.printInfo("CustomerName")
 }
