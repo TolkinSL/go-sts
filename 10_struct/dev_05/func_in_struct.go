@@ -32,4 +32,10 @@ func main() {
 	}
 
 	myOther1.otherFunc(myOther1)
+
+	myOther2 := OtherShop{
+		shopName: "Sochi",
+	}
+
+	fmt.Printf("%#v\n", myOther2)
 }
